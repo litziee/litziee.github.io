@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+body {
+    font-family: Roboto, serif;
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.nav-link {
+    color:white;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link.active {
+    color: bisque;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.sidebar {
+    color: rgb(43, 33, 33);
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.card-body>.card-title>a, 
+.card-body>.card-text>a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body a .btn.bth-primary {
+    color: white;
+}
+
+.background-bisquit {
+    background-color: bisque;
+}
+
+.padding-right {
+    padding-right: 0;
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+
+footer {
+    background-color: bisque;
+}
+
+.footer-text {
+    margin: auto auto;
+    padding-top: 15px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+
+@media (max-width:755px) {
+.carousel-indicators {
+    display: none;
+}   
+}

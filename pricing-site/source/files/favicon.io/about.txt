@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Serif NP Hmong
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
+- Font Source: http://fonts.gstatic.com/s/notoserifnphmong/v1/pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhFLp3u0rVO-d.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
