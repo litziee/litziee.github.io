@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+
+p > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-02/1644005382_56-phonoteka-org-p-sine-fioletovii-fon-odnotonnii-64.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    font-family: 'Alegreya', serif;
+    /* backdrop-filter: blur(5px); */
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 25px 55px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* btn-up */
+
+.btn-up-img {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    z-index: 100;
+    width: 80px;
+    height: 80px;
+}
+
+
+/* nav */
+
+
+.nav-fixed {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-item a:hover {
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/* main */
+.header {
+    margin-top: 230px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 3em;
+}
+
+.desc {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.sub-desc {
+    margin-top: 40px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.head {
+    margin-bottom: 80px;
+}
+
+
+/* about me */
+
+.me {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 60px;
+}
+
+.about-con {
+    display: flex;
+    margin-bottom: 80px;
+    font-size: 1.5em;
+}
+
+.about-con-item {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-con-item > img {
+    display: block;
+    width: 80%;
+    height: 75%;
+    margin: 10px auto;
+
+}
+
+
+/* interest */
+
+.interests {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+.carousel-margin {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 110px;
+    /* padding-bottom: 50px; */
+}
+
+.carousel-item>img {
+        /* object-fit: cover;
+        vertical-align: middle;
+        border-style: none; */
+        height: 50vh;
+}
+
+
+/* skills */
+
+.skills-header {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 2em;
+}
+
+.skills-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.skills-container-item {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.skills-container-item > h3 {
+    margin-bottom: 20px;
+}
+
+/* contacts */
+
+.contacts-container {
+    display: flex;
+}
+
+.contacts-header {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.contacts-container-item {
+    flex-basis: 33%;
+}
+.contacts-container-item img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+
+.contacts-footer {
+    /* width: 100%; */
+    background-color: black;
+}
+
+@media screen and (max-width: 995px) {
+    .carousel-margin {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 0px) {
+.d-md-block {
+    display: block!important;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-margin {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-container {
+        flex-wrap: wrap;
+    }
+
+    .about-con {
+        flex-wrap: wrap;
+    }
+
+    .about-con-item {
+        flex-basis: 100%;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+    }
+
+    .skills-container-item {
+        flex-basis: 100%;
+    }
+
+    .me-school {
+        margin-top: 40px;
+    }
+}
+
+
+
+
