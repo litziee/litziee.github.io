@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHelp</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- nav -->
+  <nav class="navbar fixed-top navbar-expand-sm bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#up">StudentHelp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#Услуги">Услуги</a>
+          <a class="nav-link" href="#Преимущества">Преимущества</a>
+          <a class="nav-link" href="#Авторам">Авторам</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- welcome -->
+
+  <div id="up" class="container-fluid text-center">
+    <div class="row">
+      <div class="col">
+        <h1 class="welcome-header">Добро пожаловать на StudentHelp</h1>
+        <p class="welcome-subheader"> Здесь вы можете заказать готовые курсовые, дипломные и лабораторные работы или
+          предложить свои услуги в их написании. StudentHelp гарантирует качественное выполнение всех заказов и
+          конфиденциальность данных.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- services -->
+  <div id="Услуги" class="container-fluid" style="margin-bottom: 150px;">
+    <div class="row text-center">
+      <div class="col">
+        <h2 class="services-header" >Какие виды работ можно заказать?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+
+        <div class="card text-center" style="max-width: 260px; height: 450px;margin: 20px auto; border-radius: 7%;">
+          <img src="imgs/курсач.png" class="card-img-top" alt="куросвые" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Курсовые работы</h5>
+            <p class="card-text">Цена: от 15BYN <br> Срок выполнения: от 3 дней</p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Заказать
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center" style="max-width: 260px; height: 450px;margin: 20px auto;border-radius: 7%;">
+          <img src="imgs/диплом.jpg" class="card-img-top" alt="дипломные" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Дипломные работы</h5>
+            <p class="card-text">Цена: от 60BYN <br> Срок выполнения: от 7 дней</p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Заказать
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+
+        <div class="card text-center" style="max-width: 260px; height: 450px;margin: 20px auto;border-radius: 7%;">
+          <img src="imgs/лабораторка.png" class="card-img-top" alt="лабораторные" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Лабораторные работы</h5>
+            <p class="card-text">Цена: от 3BYN <br> Срок выполнения: от 1 дня</p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Заказать
+            </button>         
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- advantages -->
+
+  <div id="Преимущества" class="container-fluid text-center" style="margin-bottom: 200px;">
+
+    <div class="row">
+      <div class="col">
+        <h2 class="advantages-header">Почему именно StudentHelp?</h2>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <h3 class="adv-sub">Низкие цены</h3>
+        <img class="adv-img" src="https://static.thenounproject.com/png/658723-200.png" alt="low_price">
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="adv-sub">Быстрое выполнение</h3>
+        <img class="adv-img" src="https://www.pngall.com/wp-content/uploads/11/Fast-Speed-Test-PNG-Pic.png" alt="fast">
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="adv-sub">Гарантия качества</h3>
+        <img class="adv-img"
+          src="https://www.svgrepo.com/show/232264/quality-medal.svg"
+          alt="quality">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- authors -->
+
+  <div id="Авторам" class="container-fluid" style="margin-bottom: 170px;">
+    <div class="row text-center">
+      <div class="col">
+        <h2 class="author-header">Для авторов</h2>
+        <p class="author-sub">Если у вас есть опыт в написании учебных работ, вы можете предложить свои услуги</p>
+        <p class="author-text"><b>Для этого заполните информацию ниже</b></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-2"></div>
+      <div class="col-md-6 col-sm-8">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите ваше ФИО" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Введите ваш номер телефона"
+              required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInpu3"
+              placeholder="На каких предметах специализируетесь" required>
+          </div>
+          <div class="mb-3">
+            <select required class="form-select" aria-label="Default select example">
+              <option selected>Выберите предпочтительный вид работ</option>
+              <option value="1">Курсовые работы</option>
+              <option value="2">Дипломные работы</option>
+              <option value="3">Лабораторные работы</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" required>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Комментарий" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Ваши комментарии</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success" id="liveToastBtn">Отправить</button>
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-body">
+                Ваша заявка отправлена
+              </div>
+            </div>
+          </div>          
+        </form>
+      </div>
+      <div class="col-md-3 col-sm-2"></div>
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+<div class="container-fluid text-center">
+  <div class="row" style="margin-top: 30px; margin-bottom: 40px;"><h2>Связь</h2></div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a  href="https://t.me/litzieqqq" target="_blank"><img class="footer-imgs" src="https://st3.depositphotos.com/4141023/14403/v/450/depositphotos_144034637-stock-illustration-paper-airplane-icons-vector.jpg" alt=""></a>
+    </div>
+
+    <div class="col-sm-4">
+      <a  href="https://vk.com/kirill.dubovik" target="_blank"><img class="footer-imgs" src="https://play-lh.googleusercontent.com/GntsGclzheXXASOhjSF1lCOPOznM_OARDObiTW_NQZtpYVwPQr_0ARyRyiXB0_OocmI" alt=""></a>
+    </div>
+
+    <div class="col-sm-4">
+      <a  href="mailto:kirilldubovik03@gmail.com" target="_blank"><img class="footer-imgs" src="https://play-lh.googleusercontent.com/KSuaRLiI_FlDP8cM4MzJ23ml3og5Hxb9AapaGTMZ2GgR103mvJ3AAnoOFz1yheeQBBI" alt=""></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h3 class="footer-text" >Сайт сделан Дубовиком Кириллом, 2023 г.</h3>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Ваш заказ</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Введите ваше ФИО" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Номер телефона"
+              required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="formGroupExampleInpu3"
+              placeholder="По какой дисциплине работа?" required>
+          </div>
+          <div class="mb-3">
+            <select required class="form-select" aria-label="Default select example">
+              <option selected>Вид работы</option>
+              <option value="1">Курсовые работы</option>
+              <option value="2">Дипломные работы</option>
+              <option value="3">Лабораторные работы</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" required>
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Комментарий" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Ваши комментарии</label>
+            </div>
+          </div>          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    
+    
+    <script src="assets.js"></script>
+
+
+  
+    
+
+</body>
+
+</html>
